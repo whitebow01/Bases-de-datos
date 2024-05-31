@@ -24,3 +24,22 @@ GRANT DELETE ANY TABLE TO C##UsuarioPrueba;
 GRANT CREATE VIEW TO C##UsuarioPrueba;
 GRANT CREATE SEQUENCE TO C##UsuarioPrueba;
 GRANT CREATE PROCEDURE TO C##UsuarioPrueba;
+
+---OTRA TABLA de ejemplo
+
+CREATE USER UsuarioPrueba IDENTIFIED BY pass;
+GRANT CREATE SESSION TO UsuarioPrueba;
+
+-- Otorgar privilegios para crear y modificar tablas
+GRANT CREATE TABLE TO UsuarioPrueba;
+GRANT ALTER ANY TABLE TO UsuarioPrueba;
+GRANT DROP ANY TABLE TO UsuarioPrueba;
+GRANT INSERT ANY TABLE TO UsuarioPrueba;
+GRANT UPDATE ANY TABLE TO UsuarioPrueba;
+GRANT DELETE ANY TABLE TO UsuarioPrueba;
+
+-- Otorgar otros privilegios útiles
+GRANT CREATE VIEW TO UsuarioPrueba;
+GRANT CREATE SEQUENCE TO UsuarioPrueba;
+GRANT CREATE PROCEDURE TO UsuarioPrueba;
+GRANT UNLIMITED TABLESPACE TO UsuarioPrueba;
