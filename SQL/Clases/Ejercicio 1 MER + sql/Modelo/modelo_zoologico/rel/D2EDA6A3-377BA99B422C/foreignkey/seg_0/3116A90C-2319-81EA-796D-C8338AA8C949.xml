@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3116A90C-2319-81EA-796D-C8338AA8C949" containerWithKeyObject="5E3C19AF-CB10-5B82-67ED-7C1D5BF902A2" localFKIndex="D77F8368-BCD9-26F1-AF51-C866CB95D538" name="CARGA_CUIDADO_FK">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>3A951C7B-CCFC-D418-B554-338BE882894B</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<referredTableLongName>CUIDADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3313A936-856A-22A7-8DB1-00DAFDAF5761</referredTableID>
+<keyObject>E95BD244-44FD-760F-699E-7A440BE186C3</keyObject>
+<referredKeyID>E95BD244-44FD-760F-699E-7A440BE186C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CodigoCuidado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

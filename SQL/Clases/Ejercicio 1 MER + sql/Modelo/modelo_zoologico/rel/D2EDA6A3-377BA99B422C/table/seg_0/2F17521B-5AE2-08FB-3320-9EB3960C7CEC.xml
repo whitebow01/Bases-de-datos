@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F17521B-5AE2-08FB-3320-9EB3960C7CEC" name="ANIMAL">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>D254779D-4389-2511-2193-0C2DBC22C3C6</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodigoAnimal" id="EC8218D0-5FDD-BBF6-B3CB-47AFF01CD773">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>8829EB3B-8CF1-5750-5C9D-10FBE822986A</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especie" id="F3423BF3-CFA5-8168-E065-9C7DF97CB490">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>7A91FD73-A78F-7FD6-4D19-4580D85810FB</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="7937B606-4969-74B5-33E9-30D3AE61B4A9">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>F1008538-AA99-48B8-9D29-E593540D0DE3</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECTOR_CodigoSector" id="1AE4B7BA-C3A8-A278-ABE4-CC42D360B6A7">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>602CBEB7-2CDE-AA70-DE67-19564FE65AA5</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A5CE4CC-D2CA-685B-60B9-8C9AF1A767AE" referredColumn="86EB645A-2FC6-04C5-AB56-648237528AAF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DAF8F98-8F8D-DFF4-CDBE-69029743FD68" name="ANIMAL_PK">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>5775C4A7-73C6-4C60-1D28-48B7E4166298</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC8218D0-5FDD-BBF6-B3CB-47AFF01CD773"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94D2D275-7D0D-690A-6946-BC8175BAE938" name="ANIMAL_SECTOR_FK">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>FD5EEE5A-CD73-9ACB-5B96-900291F4E9E0</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE4B7BA-C3A8-A278-ABE4-CC42D360B6A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

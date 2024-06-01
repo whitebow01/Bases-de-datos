@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ADDA68AA-0437-2A19-EE63-C6A16F46909A" containerWithKeyObject="150E5F61-4728-CC6F-8CE7-F8FA595B7126" localFKIndex="4631C5DA-D93E-EC03-A297-CF2EE3E6D71A" name="DESIGNACION_OPERARIO_FK">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>1E399714-9B1A-8CB9-2142-E59612E66EB4</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<referredTableLongName>OPERARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7BAD5CBE-A77D-E0AE-2DF2-A8F46E9C1155</referredTableID>
+<keyObject>0791BA18-6F47-B5C1-1879-009B3AF20FEB</keyObject>
+<referredKeyID>0791BA18-6F47-B5C1-1879-009B3AF20FEB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

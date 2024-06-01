@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A7CD00C-7BFE-EF97-8B24-7EFA0E94D1EF" name="SECTOR">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:35:50 UTC</createdTime>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<engineerTo>
+<item key="D2EDA6A3-1F43-AFE4-8E2E-377BA99B422C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CodigoSector" id="77A4A1B2-467B-CB78-763C-D7125AEFF444">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:35:56 UTC</createdTime>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<engineerTo>
+<item key="D2EDA6A3-1F43-AFE4-8E2E-377BA99B422C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="FFAE9EF7-9858-3FCA-2BBF-7741E1269289">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:36:17 UTC</createdTime>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<engineerTo>
+<item key="D2EDA6A3-1F43-AFE4-8E2E-377BA99B422C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="846AC139-F950-A736-B7F7-5D79107B5094" name="SECTORES PK">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:36:16 UTC</createdTime>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<engineerTo>
+<item key="D2EDA6A3-1F43-AFE4-8E2E-377BA99B422C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77A4A1B2-467B-CB78-763C-D7125AEFF444</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

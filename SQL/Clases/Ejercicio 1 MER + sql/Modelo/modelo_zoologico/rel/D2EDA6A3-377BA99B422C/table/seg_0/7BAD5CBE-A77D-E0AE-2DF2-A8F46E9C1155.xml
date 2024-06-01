@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BAD5CBE-A77D-E0AE-2DF2-A8F46E9C1155" name="OPERARIO">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>8BD8C8A0-68D3-D64E-B85B-59353EE3D092</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="F7B519E8-7FD1-DCE5-7632-F6210DDB0488">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>609CE471-A11A-A01B-2BE8-A53001ED89CC</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="0D7C97BF-D11B-35F4-EB22-9BAC10523376">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>F33E3698-DEE3-625E-441F-04660DD7E7B5</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apPaterno" id="8BA8C796-B6B6-07E5-29AE-610E416D101D">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>693F604D-2448-D0F6-1B57-2FA8C4F95276</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apMaterno" id="3E0F9EE3-F4D4-408D-5D17-4718CDD15629">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>BF1D1355-95DE-F022-6868-DAB0FF194928</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fono" id="143A9B86-C4DA-8100-8D6B-A4B6EF5553BF">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>8C0FDB23-DF16-57B7-8DD6-DF6CA220B356</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_casa" id="5D4F27E0-04C3-623A-2C7A-081070B2BA5D">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>6B302BBE-9EB2-4CAC-01AB-FBECAB2D9328</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="39653942-ED6F-FB52-9607-EA982761D457">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>EE0A5A48-5CDB-8CB7-7762-E5E0C3E29872</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="1D836C7F-740B-E38A-C926-CD6C89C22140">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>FBCEFDBC-1B82-06A9-B8B8-13BF6776D268</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="C4078F02-1799-CBD9-3BFA-32676EB07F3B">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>DF4AA03B-287D-6C30-C76C-883A0F5C366E</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0791BA18-6F47-B5C1-1879-009B3AF20FEB" name="OPERARIO_PK">
+<createdBy>Clases</createdBy>
+<createdTime>2024-05-31 13:43:22 UTC</createdTime>
+<generatorID>DB9D99F3-55A1-005D-4E2D-608C10EEBDE5</generatorID>
+<ownerDesignName>modelo_zoologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7B519E8-7FD1-DCE5-7632-F6210DDB0488"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
